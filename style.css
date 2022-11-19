@@ -5,22 +5,24 @@
 body {
   margin: 0;
   font-family: 'Lobster', cursive;
-  background-color: #0a0a23;
+  background-image: url(./images/map_of_graettinger_ia.jpeg.crdownload);
+  background-size: 30%;
 }
 
 .header {
   text-align: center;
   text-decoration: underline;
-  text-shadow: 10px 10px 40px #fdb347;
+  text-shadow: 1px 1px 2px #f11010;
   letter-spacing: 1em;
-  background-color: #0a0a23;
-  color: #fdb347;
-  border-bottom: 4px solid #fdb347;
+  background-color: #d2d2d5;
+  color: #22316a;
+  border-bottom: 4px solid #f11010;
   padding: 32px;
 }
 
 h1 {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 650px;
 }
 
 .gallery {
@@ -40,8 +42,10 @@ h1 {
   max-width: 350px;
   height: 300px;
   object-fit: cover;
+  border: 8px solid black;
   border-radius: 10px;
-  box-shadow: 10px 10px 40px -5px #fdb347;
+  box-shadow: 0 0 70px -10px #000;
+  padding: 5px;
 }
 
 .gallery::after {
