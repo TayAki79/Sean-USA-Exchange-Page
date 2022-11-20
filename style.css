@@ -51,6 +51,7 @@ h1 {
 .gallery::after {
   content: "";
   width: 350px;
+  border: none;
 }
 
 img:hover {
