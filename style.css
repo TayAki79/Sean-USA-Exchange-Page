@@ -52,6 +52,7 @@ h1 {
   content: "";
   width: 350px;
   border: none;
+  box-shadow: none;
 }
 
 img:hover {
